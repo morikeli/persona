@@ -1,6 +1,9 @@
 
-HATS = [
+HEADWEAR = [
+    'EYE_PATCH',
     'HAT',
+    'HIJAB',
+    'TURBAN',
     'WINTER_HAT1',
     'WINTER_HAT2',
     'WINTER_HAT3',
