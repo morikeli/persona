@@ -77,8 +77,9 @@ def main():
     # "Generate random avatar" & "Download button" buttons column
     cols_btn = st.columns([6, 6])
     
-    if cols_btn[0].button('Generate random avatar', use_container_width=True):
-        return random_avatar()
+    with cols_btn[0]:
+        if st.button('Generate random avatar', use_container_width=True):
+            random_avatar()     # generate a random avatar
 
     with cols_btn[1]:
         download_avatar(IMAGE_FILE)
