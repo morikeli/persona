@@ -1,0 +1,10 @@
+
+FASHION_ACCESSORIES = [
+    'DEFAULT',
+    'KURT',
+    'PRESCRIPTION_01',
+    'PRESCRIPTION_02',
+    'ROUND',
+    'SUNGLASSES',
+    'WAYFARERS',
+]
