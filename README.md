@@ -1,5 +1,7 @@
 # Persona
-*The avatar app of your choice* - Visit [website](https://persona-avatar.onrender.com)
+*The avatar app of your choice* - Visit [website](https://persona-avatar.onrender.com) 
+
+**NOTE:** No login or signup required. Its free! 🎉
 
 
 ### Project snapshots
@@ -15,7 +17,6 @@
 
 **Persona** is user-friendly, intuitive, and ensures a seamless avatar creation process. Express yourself like never before and share your digital persona across social media or use it in your favorite virtual worlds.
 
-**NOTE:** No login or signup required. Its free! 🎉
 
 ## Developer Instructions
 
