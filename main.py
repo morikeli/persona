@@ -77,11 +77,11 @@ def main():
     # "Generate random avatar" & "Download button" buttons column
     cols_btn = st.columns([6, 6])
     
+    with cols_btn[1]:
+        download_avatar(IMAGE_FILE)     # display download button by default
+
     if cols_btn[0].button('Generate random avatar', use_container_width=True):
         return random_avatar()
-
-    with cols_btn[1]:
-        download_avatar(IMAGE_FILE)
 
     return custom_avatar(avatar_features)
 
