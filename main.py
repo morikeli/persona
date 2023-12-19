@@ -14,19 +14,9 @@ st.set_page_config(page_title='Persona', page_icon=':busts_in_silhouette:', layo
 
 def main():
     """ This is the main function that uses streamlit to create a dynamic web page. """
-
-    # radio button column
-    cols_bg_options = st.columns([4, 6, 4])
-
-    with cols_bg_options[1]:    # center column
-        bg_option = st.radio(
-            label='Background',
-            options=('CIRCLE', 'TRANSPARENT'),
-            horizontal=True,
-        )
     
     # navigation tabs
-    tabs = st.tabs(['Beard & Hair', 'Facial features', 'Fashion trends', 'Color'])
+    tabs = st.tabs(['Beard & Hair', 'Facial features', 'Fashion trends', 'Color', 'Background style'])
     
 
     with tabs[0]:
@@ -58,11 +48,15 @@ def main():
         avatar_beard_color = tabs_cols[0].selectbox(label='Beard color', options=beard.BEARD_COLOR)
         avatar_clothes_color = tabs_cols[1].selectbox(label='Clothes color', options=clothes.CLOTHES_COLOR)
         avatar_hat_color = tabs_cols[1].selectbox(label='Hat color', options=hats.HAT_COLOR)
+    
+    with tabs[4]:
+        st.caption('Add or remove background color in your avatar')
+        avatar_bg = st.selectbox(label='Background', options=('CIRCLE', 'TRANSPARENT'))
 
     # selected avatar features
     avatar_features = {
         'accessories': avatar_addons,
-        'bg': bg_option,
+        'bg': avatar_bg,
         'beard': avatar_beard,
         'beard_color': avatar_beard_color,
         'clothing': avatar_clothe,
