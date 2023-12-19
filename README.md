@@ -1,5 +1,6 @@
 # Persona
-*The avatar app of your choice*
+*The avatar app of your choice* - Visit [website](https://persona-avatar.streamlit.app)
+
 
 ### Project snapshots
 
@@ -49,7 +50,9 @@ If you wish to be make contributions, follow the instructions stated below.
 
 
 ## Users instructions
-You can access the website on this [link](https://streamlit) and create an avatar today!
+You can access the website on this [link](https://persona-avatar.streamlit.app) and create an avatar today!
+
+Oh! Don't forget to star the repo 😉
 
 
 
