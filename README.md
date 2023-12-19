@@ -10,7 +10,8 @@
 
 ## Overview
 
-**Persona**, the ultimate avatar customization experience at your fingertips! Unleash your creativity and bring your virtual identity to life with this cutting-edge app. Customize every detail of your avatar, from hairstyle and facial features to clothing and accessories. With a vast array of options and styles, you can create a unique and personalized representation of yourself or generate random characters. 
+**Persona**, the ultimate avatar customization experience at your fingertips! Unleash your creativity and bring your virtual identity to life with this cutting-edge app. Customize every detail of your avatar, from hairstyle and facial features to clothing and accessories. With a vast array of options and styles, you can create a unique and personalized representation of yourself or generate random characters.
+
 **Persona** is user-friendly, intuitive, and ensures a seamless avatar creation process. Express yourself like never before and share your digital persona across social media or use it in your favorite virtual worlds.
 
 **NOTE:** No login or signup required. Its free! 🎉
