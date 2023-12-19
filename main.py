@@ -4,8 +4,7 @@ from features.fashion.clothing import clothes, hats
 from features.fashion.hairstyles import beard, hair
 from features.person.complexion import skins
 from features.person.faces import face
-from avatar.avatar import random_avatar, custom_avatar, IMAGE_FILE
-from images.image import download_avatar
+from avatar.avatar import random_avatar, custom_avatar
 import streamlit as st
 
 
@@ -83,6 +82,7 @@ def main():
     if cols_btn[0].button('Generate random avatar', use_container_width=True):
         return random_avatar()
 
+    
     return custom_avatar(avatar_features)
 
 
