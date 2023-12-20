@@ -19,6 +19,18 @@ def main():
     # navigation tabs
     tabs = st.tabs(['Beard & Hair', 'Facial features', 'Fashion trends', 'Color', 'Background style'])
     
+    st.divider()
+
+    # "Generate random avatar" & "Download button" buttons column
+    cols_btn = st.columns([6, 6])
+    
+    with cols_btn[1]:
+        download_avatar(IMAGE_FILE)     # display download button by default
+
+    
+    if cols_btn[0].button('Generate random avatar', use_container_width=True):
+        features_indices = random_avatar()
+    
 
     with tabs[0]:
         st.caption('Add beard, hairstyle or hair cut')
