@@ -4,7 +4,7 @@ from features.fashion.clothing import clothes, hats
 from features.fashion.hairstyles import beard, hair
 from features.person.complexion import skins
 from features.person.faces import face
-from images.image import update_avatar_image, download_avatar
+from images.image import update_avatar_image
 from random import randrange
 import py_avataaars as pa
 from PIL import Image
