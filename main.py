@@ -13,7 +13,7 @@ import streamlit as st
 st.set_page_config(page_title='Persona', page_icon=':busts_in_silhouette:', layout='centered')
 
 
-def main():
+def main(features_indices: dict = None):
     """ This is the main function that uses streamlit to create a dynamic web page. """
 
     # navigation tabs
