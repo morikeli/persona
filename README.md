@@ -55,6 +55,8 @@ You can access the website on this [link](https://persona-avatar.onrender.com) a
 
 Oh! Don't forget to star the repo 😉
 
-
+## Credits
+1. Pyavataaars library
+> Python component for Avataaars - port of https://github.com/fangpenlin/avataaars
 
 
