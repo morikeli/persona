@@ -59,4 +59,6 @@ Oh! Don't forget to star the repo 😉
 1. Pyavataaars library
 > Python component for Avataaars - port of https://github.com/fangpenlin/avataaars
 
-
+2. Streamlit
+> Streamlit — A faster way to build and share data apps.
+[Streamlit website](streamlit.io)
