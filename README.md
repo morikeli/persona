@@ -61,4 +61,5 @@ Oh! Don't forget to star the repo 😉
 
 2. Streamlit
 > Streamlit — A faster way to build and share data apps.
-[Streamlit website](streamlit.io)
+
+For more info., click [streamlit website](https://streamlit.io)
