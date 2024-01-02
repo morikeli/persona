@@ -11,7 +11,4 @@ def christmas_festive_animation():
     date_diff = current_year - current_festive_date
 
     if (date_diff.days >= 0) and (date_diff.days <= 21):
-        with open('static/css/styles.css') as stylesheet:
-            st.markdown(f'<style>{stylesheet.read()}</style>', unsafe_allow_html=True)
-        
         return st.snow()
