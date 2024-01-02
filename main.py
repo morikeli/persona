@@ -26,7 +26,7 @@ def main(features_indices: dict = None):
     
     with cols_btn[1]:
         download_btn = download_avatar()
-        print(download_btn)
+        
         if download_btn:     # display download button by default
             # download_avatar()
             st.balloons()
