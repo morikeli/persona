@@ -5,6 +5,7 @@ from features.fashion.hairstyles import beard, hair
 from features.person.complexion import skins
 from features.person.faces import face
 from avatar.avatar import random_avatar, custom_avatar, IMAGE_FILE
+from animations.utils import christmas_festive_animation
 from images.image import download_avatar
 import streamlit as st
 
@@ -153,3 +154,4 @@ def main(features_indices: dict = None):
 
 if __name__ == "__main__":
     main()
+    christmas_festive_animation()
