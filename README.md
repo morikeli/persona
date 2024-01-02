@@ -55,6 +55,11 @@ You can access the website on this [link](https://persona-avatar.onrender.com) a
 
 Oh! Don't forget to star the repo 😉
 
+## Credits
+1. Pyavataaars library
+> Python component for Avataaars - port of https://github.com/fangpenlin/avataaars
 
+2. Streamlit
+> Streamlit — A faster way to build and share data apps.
 
-
+For more info., click [streamlit website](https://streamlit.io)
