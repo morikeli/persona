@@ -25,7 +25,11 @@ def main(features_indices: dict = None):
     cols_btn = st.columns([6, 6])
     
     with cols_btn[1]:
-        download_avatar(IMAGE_FILE)     # display download button by default
+        download_btn = download_avatar()
+        print(download_btn)
+        if download_btn:     # display download button by default
+            # download_avatar()
+            st.balloons()
 
     
     if cols_btn[0].button('Generate random avatar', use_container_width=True):
