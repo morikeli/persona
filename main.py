@@ -13,6 +13,9 @@ import streamlit as st
 # webpage configuration
 st.set_page_config(page_title='Persona', page_icon=':busts_in_silhouette:', layout='centered')
 
+with open('static/css/styles.css') as stylesheet:
+    st.markdown(f'<style>{stylesheet.read()}</style>', unsafe_allow_html=True)
+
 
 def main(features_indices: dict = None):
     """ This is the main function that uses streamlit to create a dynamic web page. """
