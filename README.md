@@ -1,5 +1,5 @@
 # Persona
-## *The avatar app of your choice*
+### *The avatar app of your choice*
 
 **NOTE:** No login or signup required. Its free! 🎉
 
