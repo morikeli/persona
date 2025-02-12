@@ -85,7 +85,7 @@ def main(features_indices: dict = None):
         avatar_hat = tabs_cols[1].selectbox(
             label=':face_with_cowboy_hat: Headwear',
             options=hats.HEADWEAR,
-            index=features_indices["headwear"] if features_indices else 0,
+            index=features_indices["headwear"] if features_indices else 1,   # display selected headwear, else display hat (second item in the the list HEADWEAR) 
         )
     
     with tabs[3]:
