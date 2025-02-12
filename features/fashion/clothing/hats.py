@@ -1,4 +1,3 @@
-
 HEADWEAR = [
     'EYE_PATCH',
     'HAT',
@@ -26,5 +25,4 @@ HAT_COLOR = [
     'PINK',
     'RED',
     'WHITE',
-
 ]
