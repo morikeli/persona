@@ -62,4 +62,4 @@ def custom_avatar(features):
     render_img = avatar.render_png_file(IMAGE_FILE)
     image = Image.open(IMAGE_FILE)
 
-    return update_avatar_image(image)
+    return IMAGE_FILE
