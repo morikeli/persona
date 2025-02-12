@@ -10,7 +10,8 @@ def download_avatar(avatar_image):
             type="primary",
             data=image_file,
             file_name=avatar_image,
-            use_container_width=True
+            use_container_width=True,
+            on_click=st.balloons,   # when clicked, display balloons animation
         )
     
     return image_file
