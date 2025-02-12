@@ -2,7 +2,7 @@ import streamlit as st
 
 
 def download_avatar(avatar_image):
-    """ This function allows one to download their avatars."""
+    """ This function allows one to download their avatars. """
     
     with open(avatar_image, 'rb') as image_file:
         st.download_button(
