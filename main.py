@@ -143,6 +143,15 @@ def main(features_indices: dict = None):
         'mouth': avatar_mouth,
         'skin': avatar_skin_color,
     }
+
+    # the download is placed here instead of placing it before `with tabs[0]`
+    # so that `avatar_features` can be used because its accessible here
+    with cols_btn[1]:
+        download_btn = download_avatar(custom_avatar(avatar_features))
+    
+    # centre the avatar
+    img_col = st.columns([.4, .5, .4])
+    img_col[1].image('static/img/avatar.png', caption='Your avatar', use_column_width='auto')   # wrap the image in the center column
     
     return custom_avatar(avatar_features)
 
