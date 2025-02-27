@@ -1,9 +1,4 @@
-# Persona
-### *The avatar app of your choice*
-
-**NOTE:** No login or signup required. Its free! 🎉
-
-Click this [link](https://persona-avatar.onrender.com) to view and use the website.
+# 🚀 Persona - *The avatar generator app of your choice* 🤓
 
 ### Project snapshots
 | Screenshot | Screenshots |
@@ -20,6 +15,11 @@ Click this [link](https://persona-avatar.onrender.com) to view and use the websi
 **Persona**, the ultimate avatar customization experience at your fingertips! Unleash your creativity and bring your virtual identity to life with this cutting-edge app. Customize every detail of your avatar, from hairstyle and facial features to clothing and accessories. With a vast array of options and styles, you can create a unique and personalized representation of yourself or generate random characters.
 
 **Persona** is user-friendly, intuitive, and ensures a seamless avatar creation process. Express yourself like never before and share your digital persona across social media or use it in your favorite virtual worlds.
+
+
+**NOTE:** No login or signup required. Its free! 🎉
+
+Click this [link](https://persona-avatar.onrender.com) to view and use the website.
 
 
 ## Developer Instructions
@@ -59,7 +59,7 @@ If you wish to be make contributions, follow the instructions stated below.
 ## Users instructions
 You can access the website on this [link](https://persona-avatar.onrender.com) and create an avatar today!
 
-Oh! Don't forget to star the repo 😉
+Oh! Don't forget to star the repo 😉🌟
 
 ## Credits
 1. Pyavataaars library
